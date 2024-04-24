@@ -129,6 +129,7 @@ Pada konteks basis data, INT(11) merujuk pada jenis data integer dengan panjang 
 ## 3. Ketika Kita Melihat Struktur Tabel Dengan Perintah DESC , Ada Kolom Null yang Berisi Yes dan No. Apa Maksudnya ?
 
 Yes: Menandakan bahwa nilai dalam kolom tersebut boleh kosong. Artinya, tidak wajib mengisi setiap baris dengan data pada kolom tersebut.
+
 No: Menandakan bahwa nilai dalam kolom tersebut tidak boleh kosong. Setiap baris harus memiliki nilai untuk kolom tersebut.
 
 ##terimakasih pak
