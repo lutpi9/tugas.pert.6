@@ -122,4 +122,16 @@ Perintah nya sama seperti diatas, hanya saja diganti menjadi UNIQUE KEY
 
 ![Alt text](<gambar ss/nomor ss 13.png>)
 
+## 2. Apa Maksud Dari INT(11) ?
+
+Pada konteks basis data, INT(11) merujuk pada jenis data integer dengan panjang 11 digit
+
+## 3. Ketika Kita Melihat Struktur Tabel Dengan Perintah DESC , Ada Kolom Null yang Berisi Yes dan No. Apa Maksudnya ?
+
+Yes: Menandakan bahwa nilai dalam kolom tersebut boleh kosong. Artinya, tidak wajib mengisi setiap baris dengan data pada kolom tersebut.
+No: Menandakan bahwa nilai dalam kolom tersebut tidak boleh kosong. Setiap baris harus memiliki nilai untuk kolom tersebut.
+
+##terimakasih pak
+
+
 
