@@ -1,4 +1,6 @@
-# tugas.pert.6
+#tugas pertemuan 6
+```python
+
 ##profil
 | Variable       |    DATA DIRI         |
 | ---------------| ----------------     |
@@ -14,14 +16,13 @@
 
 Untuk membuat database gunakan perintah sebagai berikut :
 
+`CREATE DATABASE [nama_database]`
 
-CREATE DATABASE [nama_database]
-
-CREATE DATABASE latihan2;
+`CREATE DATABASE latihan2;`
 
 lalu, setelah kita membuat database. kita masuk kedalam database tersebut dengan perintah sebagai berikut :
 
-USE latihan2;
+`USE latihan2;`
 
 ![Alt text](<gambar ss/nomor ss 1.png>)
 
@@ -44,7 +45,7 @@ Untuk membuat Tabel gunakan perintah sebagai berikut :
 
 Contoh :
 
-ALTER TABLE biodata ADD COLUMN keterangan VARCHAR (15);
+`ALTER TABLE biodata ADD COLUMN keterangan VARCHAR (15);``
 
 ![Alt text](<gambar ss/nomor ss 3.png>)
 
@@ -58,7 +59,7 @@ Untuk menambahkan kolom pertama yaitu dengan perintah sebagai berikut :
 
 *5. Sisipkan sebuah kolom dengan nama phone (varchar 15) setelah kolom alamat!*
 
-Untuk menambahkan kolom setelah kolom lain yaitu dengan perintah AFTER
+Untuk menambahkan kolom setelah kolom lain yaitu dengan perintah `AFTER`
 
 ![Alt text](<gambar ss/nomor ss 5.png>)
 
@@ -66,7 +67,7 @@ Untuk menambahkan kolom setelah kolom lain yaitu dengan perintah AFTER
 
 Untuk mengubah type data yaitu dengan perintah sebagai berikut :
 
-ALTER TABLE [nama_tabel] MODIFY nama_field tipe_data_baru(ukuran);
+`ALTER TABLE [nama_tabel] MODIFY nama_field tipe_data_baru(ukuran);`
 
 ![Alt text](<gambar ss/nomor ss 6.png>)
 
@@ -74,7 +75,7 @@ ALTER TABLE [nama_tabel] MODIFY nama_field tipe_data_baru(ukuran);
 
 Untuk mengubah kolom yaitu dengan perintah sebgai berikut :
 
-ALTER TABLE [nama_tabel] CHANGE nama_field_lama nama_field_baru tipe_data(ukuran);
+`ALTER TABLE [nama_tabel] CHANGE nama_field_lama nama_field_baru tipe_data(ukuran);`
 
 ![Alt text](<gambar ss/nomor ss 7.png>)
 
@@ -86,7 +87,7 @@ ALTER TABLE [nama_tabel] CHANGE nama_field_lama nama_field_baru tipe_data(ukuran
 
 Untuk menghapus kolom dari tabel yaitu dengan perintah sebagai berikut :
 
-ALTER TABLE [nama_tabel] DROP nama_field;
+`ALTER TABLE [nama_tabel] DROP nama_field;`
 
 ![Alt text](<gambar ss/nomor ss 9.png>)
 
@@ -94,7 +95,7 @@ ALTER TABLE [nama_tabel] DROP nama_field;
 
 Untuk mengganti nama tabel yaitu dengan perintah sebagai berikut :
 
-ALTER TABLE [nama_tabel] RENAME [nama_tabel_baru];
+`ALTER TABLE [nama_tabel] RENAME [nama_tabel_baru];`
 
 ![Alt text](<gambar ss/nomor ss 10.png>)
 
@@ -112,7 +113,7 @@ tipe index :
 - UNIQUE KEY
 - FULLTEXT
 
-ALTER TABLE [nama_tabel] ADD [INDEX|PRIMARY KEY] (nama_field);
+`ALTER TABLE [nama_tabel] ADD [INDEX|PRIMARY KEY] (nama_field);`
 
 ![Alt text](<gambar ss/nomor ss 12.png>)
 
@@ -132,6 +133,4 @@ Yes: Menandakan bahwa nilai dalam kolom tersebut boleh kosong. Artinya, tidak wa
 No: Menandakan bahwa nilai dalam kolom tersebut tidak boleh kosong. Setiap baris harus memiliki nilai untuk kolom tersebut.
 
 ##terimakasih pak
-
-
 
