@@ -44,7 +44,7 @@ Untuk membuat Tabel gunakan perintah sebagai berikut :
 
 Contoh :
 
-`ALTER TABLE biodata ADD COLUMN keterangan VARCHAR (15);``
+`ALTER TABLE biodata ADD COLUMN keterangan VARCHAR (15);`
 
 ![Alt text](<gambar ss/nomor ss 3.png>)
 
@@ -98,7 +98,7 @@ Untuk mengganti nama tabel yaitu dengan perintah sebagai berikut :
 
 ![Alt text](<gambar ss/nomor ss 10.png>)
 
-*11. Ganti nama field id menjadi nim!
+*11. Ganti nama field id menjadi nim!*
 
 ![Alt text](<gambar ss/nomor ss 11.png>)
 
