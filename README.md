@@ -1,5 +1,4 @@
-#tugas pertemuan 6
-```python
+#tugas pertemuan 
 
 ##profil
 | Variable       |    DATA DIRI         |
